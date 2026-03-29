@@ -93,14 +93,14 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import connectDB from '../config/database.js'
+import connectDB from './config/database.js'
 
 // Routes
-import authRoutes from '../routes/auth.js'
-import categoryRoutes from '../routes/categories.js'
-import imageRoutes from '../routes/images.js'
-import aiRoutes from '../routes/ai.js'
-import settingsRoutes from '../routes/settings.js'
+import authRoutes from './routes/auth.js'
+import categoryRoutes from './routes/categories.js'
+import imageRoutes from './routes/images.js'
+import aiRoutes from './routes/ai.js'
+import settingsRoutes from './routes/settings.js'
 
 dotenv.config()
 
